@@ -10,4 +10,36 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
+  
+  /* Improve text legibility */
+  p, li, span {
+    @apply text-black text-opacity-90 leading-relaxed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-black;
+  }
+  
+  a {
+    @apply text-primary hover:text-primary/80 font-medium;
+  }
+  
+  /* Darker text for contrast */
+  .text-foreground {
+    @apply text-black;
+  }
+  
+  /* Dark background with light text */
+  .bg-primary {
+    @apply text-white;
+  }
+  
+  /* Improve button contrast */
+  .btn-primary {
+    @apply bg-primary text-white font-bold;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-black font-bold;
+  }
 }

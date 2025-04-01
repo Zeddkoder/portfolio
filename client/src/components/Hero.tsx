@@ -60,13 +60,13 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4">
               <Button 
                 onClick={() => scrollToSection("contact")}
-                className="bg-primary text-secondary px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all transform hover:-translate-y-1"
+                className="bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all transform hover:-translate-y-1"
               >
                 {t.hero.contactButton}
               </Button>
               <Button 
                 onClick={() => scrollToSection("projets")}
-                className="bg-secondary text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all transform hover:-translate-y-1"
+                className="bg-secondary text-black px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all transform hover:-translate-y-1"
               >
                 {t.hero.projectsButton}
               </Button>

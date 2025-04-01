@@ -111,11 +111,11 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                  <i className="fas fa-envelope text-secondary text-xl"></i>
+                  <i className="fas fa-envelope text-white text-xl"></i>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <a href="mailto:sewanou.landjeli@gmail.com" className="text-secondary hover:text-primary transition-colors">
+                  <a href="mailto:sewanou.landjeli@gmail.com" className="text-black hover:text-primary transition-colors">
                     sewanou.landjeli@gmail.com
                   </a>
                 </div>
@@ -123,11 +123,11 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                  <i className="fas fa-phone text-secondary text-xl"></i>
+                  <i className="fas fa-phone text-white text-xl"></i>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">{t.contact.phone}</h4>
-                  <a href="tel:0753808157" className="text-secondary hover:text-primary transition-colors">
+                  <a href="tel:0753808157" className="text-black hover:text-primary transition-colors">
                     07 53 80 81 57
                   </a>
                 </div>
@@ -135,11 +135,11 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                  <i className="fab fa-linkedin text-secondary text-xl"></i>
+                  <i className="fab fa-linkedin text-white text-xl"></i>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">LinkedIn</h4>
-                  <a href="https://www.linkedin.com/in/sèwanou-landjeli-b2901817a" className="text-secondary hover:text-primary transition-colors">
+                  <a href="https://www.linkedin.com/in/sèwanou-landjeli-b2901817a" className="text-black hover:text-primary transition-colors">
                     linkedin.com/in/sèwanou-landjeli-b2901817a
                   </a>
                 </div>
@@ -147,11 +147,11 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                  <i className="fab fa-github text-secondary text-xl"></i>
+                  <i className="fab fa-github text-white text-xl"></i>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">GitHub</h4>
-                  <a href="https://github.com/Zeddkoder" className="text-secondary hover:text-primary transition-colors">
+                  <a href="https://github.com/Zeddkoder" className="text-black hover:text-primary transition-colors">
                     github.com/Zeddkoder
                   </a>
                 </div>
@@ -159,7 +159,7 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                  <i className="fas fa-file-download text-secondary text-xl"></i>
+                  <i className="fas fa-file-download text-white text-xl"></i>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">{t.contact.downloadResume}</h4>
@@ -252,7 +252,7 @@ const Contact = () => {
                   
                   <Button 
                     type="submit" 
-                    className="bg-primary text-secondary px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all transform hover:-translate-y-1 w-full md:w-auto"
+                    className="bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all transform hover:-translate-y-1 w-full md:w-auto"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (
