@@ -3,7 +3,6 @@ import { useLanguage } from "./LanguageContext";
 import { translations } from "../data/translations";
 import { resumeData } from "../data/resume";
 import { motion } from "framer-motion";
-import profileImage from "../assets/IMG_5852.jpeg";
 
 const Projects = () => {
   const { language } = useLanguage();
@@ -34,15 +33,7 @@ const Projects = () => {
             >
               <Card className="overflow-hidden hover:shadow-xl transition-shadow h-full">
                 <div className="w-full h-48 bg-gray-200 flex items-center justify-center">
-                  {index === 0 ? (
-                    <img 
-                      src={profileImage} 
-                      alt={language === "fr" ? project.title.fr : project.title.en}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <i className={`${project.icon} text-primary text-5xl`}></i>
-                  )}
+                  <i className={`${project.icon} text-primary text-5xl`}></i>
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-3 font-sans">
