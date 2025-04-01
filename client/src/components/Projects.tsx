@@ -35,7 +35,7 @@ const Projects = () => {
                 <div className="w-full h-48 bg-gray-200 flex items-center justify-center">
                   {index === 0 ? (
                     <img 
-                      src="/attached_assets/IMG_5852.jpeg" 
+                      src="/assets/IMG_5852.jpeg" 
                       alt={language === "fr" ? project.title.fr : project.title.en}
                       className="w-full h-full object-cover"
                     />
