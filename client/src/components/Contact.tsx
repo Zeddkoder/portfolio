@@ -68,21 +68,13 @@ const Contact = () => {
     }
   };
   
-  const handleDownloadCV = async () => {
-    try {
-      const response = await apiRequest("GET", "/api/download-cv", undefined);
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "Sewanou_Landjeli_CV.pdf";
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-      document.body.removeChild(a);
-    } catch (error) {
-      console.error("Error downloading CV:", error);
-    }
+  const handleDownloadCV = () => {
+    const a = document.createElement("a");
+    a.href = "/assets/resume.pdf";
+    a.download = "Sewanou_Landjeli_CV.pdf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
   
   return (
@@ -193,7 +185,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-xl font-semibold mb-6 font-sans">{t.contact.sendMessage}</h3>
+            <h3 className="text-xl font-semibold mb-6 font-sans"></h3>
             
             <Card>
               <CardContent className="p-6">
