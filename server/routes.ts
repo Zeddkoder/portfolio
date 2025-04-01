@@ -51,7 +51,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Send email
       const mailOptions = {
         from: email,
-        to: "sewanou.landjeli@gmail.com", // Replace with your email
+        to: "sewanou.landjeli@gmail.com",
         subject: `Portfolio Contact: ${subject}`,
         html: `
           <h3>New Message from Portfolio Contact Form</h3>
@@ -60,6 +60,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           <p><strong>Subject:</strong> ${subject}</p>
           <p><strong>Message:</strong></p>
           <p>${message}</p>
+          <p><em>Contact: 07 53 80 81 57</em></p>
         `,
       };
       

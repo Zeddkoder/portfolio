@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-secondary text-white py-8">
+    <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
@@ -19,14 +19,14 @@ const Footer = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="https://linkedin.com/in/Sewanou-Landjeli" 
+              href="https://www.linkedin.com/in/sèwanou-landjeli-b2901817a" 
               className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-primary hover:text-secondary transition-colors"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a 
-              href="https://github.com/" 
+              href="https://github.com/Zeddkoder" 
               className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-primary hover:text-secondary transition-colors"
               aria-label="GitHub"
             >

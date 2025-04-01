@@ -82,14 +82,20 @@ const Hero = () => {
               </div>
               <div className="flex items-center">
                 <i className="fas fa-phone text-primary mr-2"></i>
-                <a href="tel:0753880152" className="hover:text-primary transition-colors">
-                  07 53 88 01 52
+                <a href="tel:0753808157" className="hover:text-primary transition-colors">
+                  07 53 80 81 57
                 </a>
               </div>
               <div className="flex items-center">
                 <i className="fab fa-linkedin text-primary mr-2"></i>
-                <a href="https://linkedin.com/in/Sewanou-Landjeli" className="hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/sèwanou-landjeli-b2901817a" className="hover:text-primary transition-colors">
                   Sewanou Landjeli
+                </a>
+              </div>
+              <div className="flex items-center">
+                <i className="fab fa-github text-primary mr-2"></i>
+                <a href="https://github.com/Zeddkoder" className="hover:text-primary transition-colors">
+                  Zeddkoder
                 </a>
               </div>
             </div>

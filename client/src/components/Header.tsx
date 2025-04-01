@@ -73,7 +73,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo/Name */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-secondary tracking-wider font-sans">
+            <h1 className="text-2xl font-bold text-black tracking-wider font-sans">
               <span className="text-primary">SEWANOU</span> LANDJELI
             </h1>
           </div>

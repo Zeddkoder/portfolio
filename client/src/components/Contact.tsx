@@ -127,8 +127,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">{t.contact.phone}</h4>
-                  <a href="tel:0753880152" className="text-secondary hover:text-primary transition-colors">
-                    07 53 88 01 52
+                  <a href="tel:0753808157" className="text-secondary hover:text-primary transition-colors">
+                    07 53 80 81 57
                   </a>
                 </div>
               </div>
@@ -139,8 +139,20 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">LinkedIn</h4>
-                  <a href="https://linkedin.com/in/Sewanou-Landjeli" className="text-secondary hover:text-primary transition-colors">
-                    linkedin.com/in/Sewanou-Landjeli
+                  <a href="https://www.linkedin.com/in/sèwanou-landjeli-b2901817a" className="text-secondary hover:text-primary transition-colors">
+                    linkedin.com/in/sèwanou-landjeli-b2901817a
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                  <i className="fab fa-github text-secondary text-xl"></i>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">GitHub</h4>
+                  <a href="https://github.com/Zeddkoder" className="text-secondary hover:text-primary transition-colors">
+                    github.com/Zeddkoder
                   </a>
                 </div>
               </div>
