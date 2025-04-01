@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "./LanguageContext";
 import { translations } from "../data/translations";
 import { motion } from "framer-motion";
+import profileImage from "../assets/IMG_5852.jpeg";
 
 const Hero = () => {
   const { language } = useLanguage();
@@ -34,7 +35,7 @@ const Hero = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-primary shadow-xl">
               <img 
-                src="/attached_assets/IMG_5852.jpeg" 
+                src={profileImage} 
                 alt="Sewanou Landjeli" 
                 className="w-full h-full object-cover"
               />

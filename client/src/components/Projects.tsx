@@ -3,6 +3,7 @@ import { useLanguage } from "./LanguageContext";
 import { translations } from "../data/translations";
 import { resumeData } from "../data/resume";
 import { motion } from "framer-motion";
+import profileImage from "../assets/IMG_5852.jpeg";
 
 const Projects = () => {
   const { language } = useLanguage();
@@ -35,7 +36,7 @@ const Projects = () => {
                 <div className="w-full h-48 bg-gray-200 flex items-center justify-center">
                   {index === 0 ? (
                     <img 
-                      src="/attached_assets/IMG_5852.jpeg" 
+                      src={profileImage} 
                       alt={language === "fr" ? project.title.fr : project.title.en}
                       className="w-full h-full object-cover"
                     />
