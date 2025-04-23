@@ -10,7 +10,7 @@ const Contact = () => {
   
   const handleDownloadCV = () => {
     const a = document.createElement("a");
-    a.href = "/assets/resume.pdf";
+    a.href = "/assets/";
     a.download = "Sewanou_Landjeli_CV.pdf";
     document.body.appendChild(a);
     a.click();

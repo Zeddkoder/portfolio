@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "./LanguageContext";
 import { translations } from "../data/translations";
 import { motion } from "framer-motion";
-import profileImage from "../assets/pro.jpg;
+import profileImage from "../assets/pro.jpeg;
 const Hero = () => {
   const { language } = useLanguage();
   const t = translations[language];
